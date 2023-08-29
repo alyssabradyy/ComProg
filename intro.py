@@ -1,4 +1,8 @@
+import random 
+
+
 greeting = input("Hello, possible pirate! What's the password?")
+
 
 if greeting in ("Arrr!"):
 
@@ -13,3 +17,8 @@ if greeting in ("ice face"):
 if greeting in ("chuck"):
     print("A mouse by the name of Charles Entertainment Cheese")
     print("Welcome Lord Cheese")
+
+
+
+      
+     
