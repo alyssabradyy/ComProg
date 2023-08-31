@@ -1,2 +1,6 @@
-my_character = dict('name': "Cole", 'age': 22, 'food':"cake, rice, chicken, noodles, cookies", 'male': yes)
-print(my_character)
+my_character = {
+    "name": "Cole Brookstone",
+    "age": 22,
+    "isMale": True,
+    "faveFood":['cake', 'rice', 'noodles', 'cookies', 'soup'],
+}
