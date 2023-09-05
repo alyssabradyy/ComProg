@@ -1,13 +1,15 @@
-(name) = ("Alyssa")
-(test_score) = 100/100
-(was_lunch_tasty) = "No"
-(bday_classes) = {
-    ("first"): ("seminary"),
-    ("second"): ("digital literacy"),
-    ("third"): ("computer programming"),
-    ("fourth"): ("french")
-}
+name = "Alyssa"
+test_score = 100/100
+was_lunch_tasty = False
+bday_classes = ["seminary", "digital literacy", "computer programming", "french"]
 
-equation = 4+2
+def add_two_numbers(num1, num2):
+    print(num1 + num2)
+add_two_numbers(4, 2)
+
 print("The answer is....!")
-print(equation)
+
+user_number1 = int(input("Give me a number: "))
+user_number2 = int(input("Give me a second number: "))
+
+add_two_numbers(user_number1, user_number2)
