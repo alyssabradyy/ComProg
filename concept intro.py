@@ -55,3 +55,9 @@ def add(num1, num2):
 my_name = "poop"
 words = my_name.split("o")
 print(words)
+
+def subtract(num1, num2):
+    return num1 - num2
+print(subtract(4,2))
+difference = subtract(4,2)
+print(difference)
