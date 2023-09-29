@@ -26,3 +26,10 @@ for v in vehicles:
     print(v)
     if v == 'Bus':
         break
+
+for m in vehicles:
+    if m == 'Bus':
+        continue
+    print(m)
+
+numbers = (12, 3, 56, 67, 89, 90)
