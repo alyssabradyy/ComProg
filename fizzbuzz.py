@@ -12,6 +12,7 @@ for i in range(1, 101):
         print("Buzz")
     else:
         print(i)
+    # this is what the internet told me to do but it doesn't work
     for i in range(2, i):
         if (i % i) == 0:
             break
