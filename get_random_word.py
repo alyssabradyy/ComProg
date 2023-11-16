@@ -5,7 +5,7 @@ secret_word = with open("randomwordgen.py", "r") as file:
     words = list(map(str, allText.split()))
     code_word = split(secret_word)
 
-print(f"This is your word:{enumerate(code_word)}")
+print(f"This is your word:{enumerate(code_word) to "_ "}")
 guesses = input("What letter would you like to guess? ")
 
 if guesses == code_word:
