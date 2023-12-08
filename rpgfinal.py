@@ -15,6 +15,22 @@ if walk in ("w"):
                     while char_hp > 0 or while enemy_hp > 0:
                         attack_given = random(range(1, 100))
                         enemy_hp - attack_given
+                        attack_taken = random(range(1, 100))
+                        char_hp - attack_taken
                 elif enemy_encounter in "f":
+                    run_chance = random(1, 2):
+                    if run_chance == 1:
+                        print("You ran from the fight!")
+                    elif run_chance == 2:
+                        print("You cannot run from this battle.")
+                        while char_hp > 0 or while enemy_hp > 0:
+                            attack_given = random(range(1, 100))
+                            enemy_hp - attack_given
+                            attack_taken = random(range(1, 100))
+                            char_hp - attack_taken                    
                 else:
                     ("Please press 'a' to attack or 'f' to flee.")
+            if char_hp = 0:
+                print("You died! Better luck next time!")
+            elif enemy_hp = 0:
+                print("You won this round!")
