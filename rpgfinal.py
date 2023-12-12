@@ -14,8 +14,10 @@ while walk in ("w"):
             while char_hp > 0 or enemy_hp > 0:
                 attack_given = random(range(1, 35))
                 enemy_hp - attack_given
+                print(f"You hit the enemy with {attack_given} damage!")
                 attack_taken = random(range(1, 36))
                 char_hp - attack_taken
+                print(f"The enemy hit you dealing {attack_taken} damage!")
         elif enemy_encounter in "f":
             run_chance = random(1, 2)
             if run_chance == 1:
